@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+  body {
+      font-family: 'Righteous', cursive;
+  }
+   .navbar-light {
+    background-color: transparent;
+    border-color: transparent;
+   }
