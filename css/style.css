@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Righteous');
   body {
       font-family: 'Righteous', cursive;
+      padding-top: 70px;
   }
-   .navbar-light {
+.navbar-light {
     background-color: transparent;
     border-color: transparent;
    }
+
+.about hr {
+  width: 250px;
+  border-top: 3px solid #5c2828;
+}
