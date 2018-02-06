@@ -3,12 +3,12 @@
 * [Link Tutorial Parallax](https://www.youtube.com/watch?v=cEkCIn4rY4Q )
 * Menerapkan beberapa efek Parallax dengan CSS dan Javascript dari tutorial diatas.
 
-##Smooth Scrolling
+## Smooth Scrolling
 * [Link Tutorial Smooth Scrolling](https://www.youtube.com/watch?v=btYCEsKJ5k4 )
 * [Link Download easing.js](http://gsgd.co.uk/sandbox/jquery/easing)
 * Membuat smooth scrolling dengan javascript dan library jquery dari easing.js
  
-##Google Maps di website dengan bantuan Javascript
+## Google Maps di website dengan bantuan Javascript
 * [Link Tutorial Google Maps](https://developers.google.com/maps/documentation/javascript/adding-a-google-map?hl=id )
 * Memasang Google Maps di Website menggunakan html dan javascript
 * [Link Tutorial Custom Google Maps dengan Javascript]()

@@ -77,4 +77,10 @@ function initMap() {
 
 
 });
+ 
+swal({
+      title: "Thanks!",
+      text: "You clicked submit",
+      icon: "success"
+});
 // $('.yoy').addClass('muncul');

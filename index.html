@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -175,34 +176,37 @@
 
           <div class="row">
             <div class="col-sm-8 col-sm-offset-2">
-              <form>
+              <form action="insertawal.php" method="POST" id="form" >
                 <div class="form-group">
                   <div class="yoy">
                   <label for="nama"> Name </label>
-                  <input type="text" id="nama" class="form-control" placeholder="Type Your Name ...">
+                  <input type="text" name="nama" class="form-control" placeholder="Type Your Name ...">
                   </div>
 
                   <div class="yoy">
                   <label for="email"> E-mail </label>
-                  <input type="email" id="email" class="form-control" placeholder="Type Your Address E-mail ...">
+                  <input type="email" name="email"  class="form-control" placeholder="Type Your Address E-mail ... (example: Jhon@gmail.com)">
                   </div>
 
                   <div class="yoy">
                   <label for="phone"> Phone </label>
-                  <input type="tel" id="phone" class="form-control" placeholder="Type Your Phone Number ...">
+                  <input type="number" name="telpon"  class="form-control" placeholder="Type Your Phone Number ...">
                   </div>
 
                   <div class="yoy">
                   <label for="questions"> Your Questions </label>
-                  <textarea class="form-control" rows="3"></textarea>
+                  <textarea class="form-control" name="tanya" rows="3" placeholder="Type Your Questions Here ..."></textarea>
                   </div>
                 </div>
                 <div class="yoy">
                 <div class="col-sm-6 col-sm-offset-5">
-                  <button type="submit" class="btn btn-default">SEND</button>
+                  <button type="submit" class="btn btn-default" name="kritik" value="kritik">SEND</button>
                 </div>
                 </div>
               </form>
+              <script language="javascript">
+    swal("THANKYOU","Your Questions Have Been Submitted!");
+</script>
             </div>
           </div>
         </div>
@@ -273,5 +277,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
     <script src="js/plax.js"></script>
+
+
   </body>
 </html>
